@@ -14,6 +14,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".Accessories3_1"
+            android:exported="false" />
+        <activity
+            android:name=".Accessories2_1"
+            android:exported="false" />
+        <activity
+            android:name=".Accessories1_3"
+            android:exported="false" />
+        <activity
+            android:name=".Accessories1_2"
+            android:exported="false" />
+        <activity
+            android:name=".Accessories1_1"
+            android:exported="false" />
+        <activity
             android:name=".ASUSME103K"
             android:exported="false" />
         <activity
@@ -43,11 +58,6 @@
         <activity
             android:name=".asuscomputer"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.MyApplication.NoActionBar" />
         <activity
             android:name=".apple"
             android:exported="false" />

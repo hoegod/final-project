@@ -5,7 +5,8 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".asuslaptop">
+    tools:context=".asuslaptop"
+    android:background="@color/white">
 
     <!--主頁面佈局-->
     <LinearLayout
@@ -31,7 +32,8 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ASUS X515" />
+            android:text="ASUS X515"
+            android:textColor="@color/black"/>
 
         <ImageButton
             android:id="@+id/btn_laptop"
@@ -45,7 +47,8 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ASUS X571" />
+            android:text="ASUS X571"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 

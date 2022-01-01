@@ -7,6 +7,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         ImageButton btn_acer = findViewById(R.id.btn_acer);
         ImageButton btn_apple = findViewById(R.id.btn_laptop);
         ImageButton btn_open = findViewById(R.id.btn_open);
+        Button btn_others = findViewById(R.id.btn_others);
+
 
         btn_acer.setOnClickListener(new View.OnClickListener() { //點擊後執行跳頁的指令
             @Override
@@ -52,6 +55,16 @@ public class MainActivity extends AppCompatActivity {
         btn_open.setOnClickListener(v -> {
             //開啟滑動選單 左側出現
             drawerLayout.openDrawer(GravityCompat.START);
+
+            btn_others.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity.this, Accessories1_1.class);
+                    startActivity(intent);
+                }
+            });
+
         });
 }
 }

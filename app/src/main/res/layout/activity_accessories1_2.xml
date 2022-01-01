@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accessories1_2"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textheadphone1_1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="HyperX Cloud Flight S – 無線電競耳機 (HX-HSCFS-SG/WW) 台幣$4990"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textheadphone1_2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="電競級無線傳輸及超長效電力，Qi 認證無線充電，HyperX 特調 7.1 虛擬環繞音效
+	，遊戲和語音音效平衡，HyperX 專屬舒適配戴體驗和耐用性，可拆式麥克風配備 LED 靜音/收音指示燈
+	，可自訂左耳罩上的控制鍵功能，90° 旋轉耳罩"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textheadphone1_1" />
+
+    <TextView
+        android:id="@+id/textheadphone1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="簡介:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textheadphone1_2" />
+
+    <TextView
+        android:id="@+id/textheadphone1_4"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="HyperX Cloud Flight S 電池續航力高達 30 小時，讓您盡情享受遊戲不間斷。這是首款 Qi 充電無線電競耳機，可為您提供無線充電和 2.4GHz 無線音訊傳輸的便利。按壓耳罩上的控制鍵即可啟用 HyperX 特調 7.1 虛擬環繞音效2，立即體驗更徹底的沉浸感。使用耳罩上的控制鍵輕鬆調整遊戲和通話音量，無須透過繁瑣的系統選單。也可以透過 HyperX NGENUITY 軟體，依照個人需求自訂左耳罩上四個控制鍵的個別功能。
+紓壓記憶泡棉和透氣人造皮革為 Cloud Flight S 提供了 HyperX 獨家舒適度。堅固的可調式鋼芯頭帶，在日常使用中更添耐用性。本產品經過 Discord 和 TeamSpeak 認證，並配備可拆式麥克風，且內建麥克風監聽 (Sidetone 側音) 功能。透過麥克風上的 LED 指示燈，快速辨別麥克風靜音/收音狀態。耳罩可旋轉 90°，輕鬆地掛置於頸部，創新的卡榫式設計能夠讓耳機在無線充電時保持穩定。"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textheadphone1_3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

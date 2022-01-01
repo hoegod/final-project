@@ -5,7 +5,8 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".asuspad">
+    tools:context=".asuspad"
+    android:background="@color/white">
 
     <!--主頁面佈局-->
     <LinearLayout
@@ -31,7 +32,8 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ASUS Zenpad Z10" />
+            android:text="ASUS Zenpad Z10"
+            android:textColor="@color/black"/>
 
         <ImageButton
             android:id="@+id/btn_laptop"
@@ -45,7 +47,8 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ASUS ME103K" />
+            android:text="ASUS ME103K"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 

@@ -5,7 +5,8 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
     <!--主頁面佈局-->
     <LinearLayout
@@ -31,7 +32,8 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="桌上電腦" />
+            android:text="桌上電腦"
+            android:textColor="@color/black"/>
 
         <ImageButton
             android:id="@+id/btn_laptop"
@@ -45,7 +47,9 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="筆記本電腦" />
+            android:text="筆記本電腦"
+            android:textColor="@color/black"/>
+
         <ImageButton
             android:id="@+id/btn_pad"
             android:layout_width="325dp"
@@ -56,7 +60,8 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="平板電腦" />
+            android:text="平板電腦"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 
