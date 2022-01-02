@@ -34,6 +34,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/irocks_k71m_rgb" />
 
+    <ImageButton
+        android:id="@+id/btn_keyboard2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textkeyboard1"
+        app:srcCompat="@drawable/razer_cynosa_lite_" />
+
     <TextView
         android:id="@+id/textkeyboard1"
         android:layout_width="match_parent"
@@ -44,4 +55,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_keyboard1" />
+
+    <TextView
+        android:id="@+id/textkeyboard2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="Razer Cynosa Lite"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_keyboard2"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

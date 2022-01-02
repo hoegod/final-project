@@ -14,6 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".Accessories2_3"
+            android:exported="false" />
+        <activity
+            android:name=".Accessories2_2"
+            android:exported="false" />
+        <activity
             android:name=".Accessories3_1"
             android:exported="false" />
         <activity
