@@ -9,13 +9,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class acercomputer extends AppCompatActivity {
+public class applepad extends AppCompatActivity {
     private DrawerLayout drawerLayout;//滑動選單
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_acercomputer);
+        setContentView(R.layout.activity_applepad);
         drawerLayout = findViewById(R.id.drawer_layout);
 
         ImageButton btn_asus = findViewById(R.id.btn_asus);
@@ -26,7 +26,7 @@ public class acercomputer extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
-                intent.setClass(acercomputer.this, AcerN50610.class);
+                intent.setClass(applepad.this, ipad.class);
                 startActivity(intent);
             }
         });
@@ -34,7 +34,7 @@ public class acercomputer extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
-                intent.setClass(acercomputer.this, AcerTC1650.class);
+                intent.setClass(applepad.this, ipadpro.class);
                 startActivity(intent);
             }
         });
@@ -44,5 +44,4 @@ public class acercomputer extends AppCompatActivity {
         });
     }
 }
-
 

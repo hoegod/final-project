@@ -14,6 +14,57 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".ipadpro"
+            android:exported="false" />
+        <activity
+            android:name=".ipad"
+            android:exported="false" />
+        <activity
+            android:name=".applepad"
+            android:exported="false" />
+        <activity
+            android:name=".macbookpro"
+            android:exported="false" />
+        <activity
+            android:name=".macbookair"
+            android:exported="false" />
+        <activity
+            android:name=".aaplelaptop"
+            android:exported="false" />
+        <activity
+            android:name=".imac24"
+            android:exported="false" />
+        <activity
+            android:name=".imac27"
+            android:exported="false" />
+        <activity
+            android:name=".applecomputer"
+            android:exported="false" />
+        <activity
+            android:name=".AcerIconiaTabA500"
+            android:exported="false" />
+        <activity
+            android:name=".AcerA3A301375"
+            android:exported="false" />
+        <activity
+            android:name=".acerpad"
+            android:exported="false" />
+        <activity
+            android:name=".AcerA51545R2B5"
+            android:exported="false" />
+        <activity
+            android:name=".AcerAspire5A51543R19L"
+            android:exported="false" />
+        <activity
+            android:name=".acerlaptop"
+            android:exported="false" />
+        <activity
+            android:name=".AcerTC1650"
+            android:exported="false" />
+        <activity
+            android:name=".AcerN50610"
+            android:exported="false" />
+        <activity
             android:name=".ASUSME103K"
             android:exported="false" />
         <activity

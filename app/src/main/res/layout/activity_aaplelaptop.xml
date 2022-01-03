@@ -5,7 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".acerlaptop">
 
     <!--主頁面佈局-->
     <LinearLayout
@@ -21,9 +21,9 @@
 
         <ImageButton
             android:id="@+id/btn_asus"
-            android:layout_width="274dp"
-            android:layout_height="136dp"
-            app:srcCompat="@drawable/pj5"
+            android:layout_width="272dp"
+            android:layout_height="158dp"
+            app:srcCompat="@drawable/pj23"
             tools:layout_editor_absoluteX="56dp"
             tools:layout_editor_absoluteY="68dp" />
 
@@ -31,13 +31,13 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="桌上電腦" />
+            android:text="Macbook air" />
 
         <ImageButton
             android:id="@+id/btn_laptop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/pj7"
+            app:srcCompat="@drawable/pj24"
             tools:layout_editor_absoluteX="70dp"
             tools:layout_editor_absoluteY="451dp" />
 
@@ -45,18 +45,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="筆記本電腦" />
-        <ImageButton
-            android:id="@+id/btn_pad"
-            android:layout_width="325dp"
-            android:layout_height="197dp"
-            app:srcCompat="@drawable/pj12" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="平板電腦" />
+            android:text="Macbook Pro" />
 
     </LinearLayout>
 

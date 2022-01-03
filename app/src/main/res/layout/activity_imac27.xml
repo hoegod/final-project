@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".s500sa">
+    tools:context=".imac27">
 
 
     <WebView
@@ -41,7 +41,7 @@
         android:layout_marginTop="102dp"
         android:layout_marginEnd="59dp"
         android:background="@drawable/border"
-        android:text="Hexa-core "
+        android:text="10th-generation Intel Core i7"
         app:layout_constraintBottom_toTopOf="@+id/textView49"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView47"
@@ -69,7 +69,7 @@
         android:layout_height="22dp"
         android:layout_marginEnd="59dp"
         android:background="@drawable/border"
-        android:text="3GB"
+        android:text="8GB(DDR4)"
         app:layout_constraintBottom_toTopOf="@+id/textView51"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -98,7 +98,7 @@
         android:layout_height="22dp"
         android:layout_marginEnd="59dp"
         android:background="@drawable/border"
-        android:text="Adreno 510 "
+        android:text="AMD Radeon Pro 5500 XT"
         app:layout_constraintBottom_toTopOf="@+id/textView54"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView50"
@@ -111,7 +111,7 @@
         android:layout_height="22dp"
         android:layout_marginStart="106dp"
         android:background="@drawable/border"
-        android:text="內存"
+        android:text="SSD  "
         app:layout_constraintEnd_toStartOf="@+id/textView54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView50" />
@@ -137,7 +137,7 @@
         android:layout_height="22dp"
         android:layout_marginEnd="59dp"
         android:background="@drawable/border"
-        android:text="9.7 inches"
+        android:text='27"'
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView55"
         app:layout_constraintTop_toBottomOf="@+id/textView54" />
@@ -164,7 +164,7 @@
         android:layout_marginTop="26dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="61dp"
-        android:text="ASUS ZenPad Z10 ZT500KL 採用一體成型金屬機身設計，搭載 9.7 吋 QXGA IPS 螢幕，高達 178 度可視角，無論看影片或玩遊戲，都呈現栩栩如生的畫質，配備雙立體揚聲器帶來身臨其境的音效，搭配耳機可享有 DTS 音質體驗。ASUS ZenPad Z10 ZT500KL 內建 7,800mAh 電量，具備 56 天待機時間，配置 USB Type-C，同時還擁有快速充電技術。"
+        android:text="27 吋 iMac 滿載各式強大工具和 app，讓你的構想展現更高境界。它配備超快速處理器與繪圖處理、超大記憶體容量與全快閃儲存裝置，可以輕鬆勝任任何工作負載。擁有先進的音訊和視訊功能，再加上令人驚豔的 5K Retina 顯示器，你所做的一切，更顯不同凡響。"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -179,7 +179,7 @@
         android:layout_height="22dp"
         android:layout_marginEnd="59dp"
         android:background="@drawable/border"
-        android:text="32GB"
+        android:text="512GB"
         app:layout_constraintBottom_toTopOf="@+id/textView53"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView52"
