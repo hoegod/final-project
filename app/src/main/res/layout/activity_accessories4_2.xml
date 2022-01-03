@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accessories4_2"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textvideocard1_1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="微星 GeForce GTX 1050 Ti AERO 4G OCV1 顯示卡 台幣$5090"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textvideocard1_2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="顯示晶片：NVIDIA GeForce GTX 1050 Ti，
+記憶體：4GB GDDR5，記憶體時脈：7008 MHz，記憶體介面：128-bit，介面規格：PCI-E 3.0x16，
+輸出端子：DP / HDMI / DL-DVI-D，體積(長x寬x高)：170 x 111 x 39 mm"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textvideocard1_1" />
+
+    <TextView
+        android:id="@+id/textvideocard1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="簡介:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textvideocard1_2" />
+
+    <TextView
+        android:id="@+id/textvideocard1_4"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="尺寸精巧的MSI AERO ITX 顯示卡，擁有著不輸給一般尺寸顯示卡的運作效能。可完美嵌入所有類型機箱的尺寸設計及適合影音娛樂的效能，讓使用者輕鬆享有順暢的遊戲體驗。
+消除畫面鋸齒、遲鈍顯示和輸入延遲，體驗更順暢、更快、更極致的遊戲畫面。
+超高畫質（UHD ）傳遞出高達 4倍1080P的畫面，讓您在遊戲過程中能享受到更細緻、更清晰的遊戲圖像。
+料件的品質決定顯示卡的能耐。MSI AERO系列顯示卡採用MIL-STD- 810G軍規認證用料，通過多項嚴苛測試，是高品質與高穩定的最佳保證，能大幅提升超頻穩定度，讓玩家在超頻及遊戲過程中能夠更安心！
+「麻雀雖小，五臟俱全」是最適合 AERO 顯示卡的形容，精巧的設計適用於任何機箱，極輕盈的設計，卻擁有不輸給一般尺寸的顯示卡效能。"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textvideocard1_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accessories5_3"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textvideocard1_1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="ASUS ZenPower 行動電源10050mAh - 尊爵黑 (ABTU005) 台幣$549"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textvideocard1_2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="高效電力 10050 mAh，
+重量約215g、典雅名片尺寸，
+輕巧鋁合金外殼搭配表面噴砂處理、打造低調奢華的絕佳品味，
+支援高達2.4安培的輸出電流，
+黑色-特別搭配同心圓設計、打造低調奢華絕佳品味。"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textvideocard1_1" />
+
+    <TextView
+        android:id="@+id/textvideocard1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="簡介:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textvideocard1_2" />
+
+    <TextView
+        android:id="@+id/textvideocard1_4"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="ASUS ZenPower 重量僅215g、典雅名片尺寸，卻蘊含超乎想像的高效電力 10050 mAh，滿足您的輕巧行動生活。
+滿足您出門在外的多次充電需求，輕鬆享受全天行動通訊生活。
+ASUS ZenPower採用一體成形的輕巧鋁合金外殼搭配表面噴砂處理、設計出最符合人體工學的握感，打造低調奢華的絕佳品味。
+ASUS ZenPower 奢華亮眼的金屬光澤、艷麗亮眼的彩色外殼，讓您成為時尚焦點。
+ASUS ZenPower 支援高達2.4安培的輸出電流，可有效縮短充電時間，快速為您的行動裝置回復電量。
+採用業界肯定的國際三大品牌電芯，並搭載獨家 PowerSafe 技術隨時監控溫度、調節輸出/輸入電壓、短路防護，提供您最安全的使用環境。
+秉持華碩對品質測試的要求，在模擬日常使用情境下經過上千項測試，確保可以承重高達50公斤，提供您耐用穩健的ASUS ZenPower。"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textvideocard1_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

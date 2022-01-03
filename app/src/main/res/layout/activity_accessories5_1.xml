@@ -4,27 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Accessories2_1"
+    tools:context=".Accessories5_1"
     android:background="@color/white">
 
     <Button
-        android:id="@+id/btn_forward1_1"
+        android:id="@+id/btn_forward1_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="上一頁"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 
-    <Button
-        android:id="@+id/btn_next1_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="下一頁"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
     <ImageButton
-        android:id="@+id/btn_keyboard1"
+        android:id="@+id/btn_power1"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:adjustViewBounds="true"
@@ -32,38 +24,39 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/irocks_k71m_rgb" />
+        app:srcCompat="@drawable/samsung_10000mah_eb_p1100__type_c_" />
 
     <ImageButton
-        android:id="@+id/btn_keyboard2"
+        android:id="@+id/btn_power2"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textkeyboard1"
-        app:srcCompat="@drawable/razer_cynosa_lite_" />
+        app:layout_constraintTop_toBottomOf="@+id/textpower1"
+        app:srcCompat="@drawable/asus_zenpower_10050mah_____abtu005_" />
 
     <TextView
-        android:id="@+id/textkeyboard1"
+        android:id="@+id/textpower1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:text="irocks K71M RGB背光 機械式鍵盤-Gateron茶軸"
+        android:text="SAMSUNG 原廠雙向閃電快充10000mAh行動電源-EB-P1100"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_keyboard1" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_power1"/>
 
     <TextView
-        android:id="@+id/textkeyboard2"
+        android:id="@+id/textpower2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:text="Razer Cynosa Lite 薩諾狼蛛Lite版鍵盤"
+        android:text="ASUS ZenPower 行動電源10050mAh - 尊爵黑"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_keyboard2"/>
+        app:layout_constraintTop_toBottomOf="@+id/btn_power2"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

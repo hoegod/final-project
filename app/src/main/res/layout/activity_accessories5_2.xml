@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Accessories2_3"
+    tools:context=".Accessories5_2"
     android:background="@color/white">
 
     <TextView
-        android:id="@+id/textkeyboard1_1"
+        android:id="@+id/textvideocard1_1"
         android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginTop="50dp"
-        android:text="Razer Cynosa Lite 薩諾狼蛛Lite版鍵盤 台幣$1490"
+        android:text="SAMSUNG 原廠雙向閃電快充10000mAh行動電源-EB-P1100 (Type-C) 台幣$488"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.262"
@@ -21,18 +21,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textkeyboard1_2"
+        android:id="@+id/textvideocard1_2"
         android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginTop="50dp"
-        android:text="柔軟緩衝的電競級按鍵，10鍵齊發不衝突防鬼鍵，1000Hz超快輪詢率，防潑水耐用設計。"
+        android:text="讓您隨時隨地為流動裝置進行充電
+，採用輕薄、符合人體工學的設計。"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textkeyboard1_1" />
+        app:layout_constraintTop_toBottomOf="@+id/textvideocard1_1" />
 
     <TextView
-        android:id="@+id/textkeyboard1_3"
+        android:id="@+id/textvideocard1_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -40,18 +41,21 @@
         android:text="簡介:"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textkeyboard1_2" />
+        app:layout_constraintTop_toBottomOf="@+id/textvideocard1_2" />
 
     <TextView
-        android:id="@+id/textkeyboard1_4"
+        android:id="@+id/textvideocard1_4"
         android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:text="RAZER CYNOSA CHROMA支援了Razer Chroma的RGB全彩發光效果，並能透過Razer Synapse 應用程式自訂光效。
-如果你以為所有的標準鍵盤用起來都差不多，那你就錯了。Razer Cynosa Lite 保留了所有的標準按鍵，而且還內建更多功能。它現在能夠展現高度遊戲效能，而且採用獨立背光按鍵，
-帶給你更多自訂空間!"
+        android:text="行動電源配備SAMSUNG AFC(15W)及支援QC 2.0，電力隨時滿格，透過OCP保護設計，讓您的裝置安全地充電。
+行動電源本身有著OVP保護設計，在閃電快充模式下可在220分鐘內充滿，您可以更快地使用它。
+行動電源可同時為二台裝置進行充電，讓您使用上更有效率及便利。
+行動電源同時可支援其他設備，讓您輕鬆搭配各種裝置。
+10,000mAh的高電力讓您有更高的續航力，無需擔心電力問題。
+符合人體工學的設計，讓您輕易地掌握在手中。"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textkeyboard1_3" />
+        app:layout_constraintTop_toBottomOf="@+id/textvideocard1_3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
