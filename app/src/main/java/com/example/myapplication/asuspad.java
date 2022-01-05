@@ -7,6 +7,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 public class asuspad extends AppCompatActivity {
@@ -21,6 +22,9 @@ public class asuspad extends AppCompatActivity {
         ImageButton btn_asus = findViewById(R.id.btn_asus);
         ImageButton btn_laptop = findViewById(R.id.btn_laptop);
         ImageButton btn_open = findViewById(R.id.btn_open);
+        Button btn_phone = findViewById(R.id.btn_phone);
+        Button btn_home = findViewById(R.id.btn_home);
+
 
         btn_asus.setOnClickListener(new View.OnClickListener() { //點擊後執行跳頁的指令
             @Override
@@ -41,6 +45,24 @@ public class asuspad extends AppCompatActivity {
         btn_open.setOnClickListener(v -> {
             //開啟滑動選單 左側出現
             drawerLayout.openDrawer(GravityCompat.START);
+            btn_phone.setOnClickListener(new View.OnClickListener() { //點擊後執行跳頁的指令
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent();
+                    intent.setClass(asuspad.this, phoneActivity.class);
+                    startActivity(intent);
+                }
+
+            });
+            btn_home.setOnClickListener(new View.OnClickListener() { //點擊後執行跳頁的指令
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent();
+                    intent.setClass(asuspad.this, MainActivity.class);
+                    startActivity(intent);
+                }
+
+            });
         });
     }
 }

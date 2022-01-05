@@ -10,59 +10,63 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class acerpad extends AppCompatActivity {
+public class comput extends AppCompatActivity {
     private DrawerLayout drawerLayout;//滑動選單
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_acerpad);
+        setContentView(R.layout.activity_comput);
         drawerLayout = findViewById(R.id.drawer_layout);
 
         ImageButton btn_asus = findViewById(R.id.btn_asus);
-        ImageButton btn_laptop = findViewById(R.id.btn_laptop);
+        ImageButton btn_acer = findViewById(R.id.btn_acer);
+        ImageButton btn_apple = findViewById(R.id.btn_laptop);
         ImageButton btn_open = findViewById(R.id.btn_open);
         Button btn_phone = findViewById(R.id.btn_phone);
-        Button btn_home = findViewById(R.id.btn_home);
 
+        btn_acer.setOnClickListener(new View.OnClickListener() { //點擊後執行跳頁的指令
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(comput.this, acer.class);
+                startActivity(intent);
+            }
+
+        });
         btn_asus.setOnClickListener(new View.OnClickListener() { //點擊後執行跳頁的指令
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
-                intent.setClass(acerpad.this, AcerA3A301375.class);
+                intent.setClass(comput.this, asus.class);
                 startActivity(intent);
             }
         });
-        btn_laptop.setOnClickListener(new View.OnClickListener() { //點擊後執行跳頁的指令
+        btn_apple.setOnClickListener(new View.OnClickListener() { //點擊後執行跳頁的指令
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
-                intent.setClass(acerpad.this, AcerIconiaTabA500.class);
+                intent.setClass(comput.this, apple.class);
                 startActivity(intent);
             }
+
         });
         btn_open.setOnClickListener(v -> {
             //開啟滑動選單 左側出現
             drawerLayout.openDrawer(GravityCompat.START);
+
             btn_phone.setOnClickListener(new View.OnClickListener() { //點擊後執行跳頁的指令
                 @Override
                 public void onClick(View view) {
                     Intent intent = new Intent();
-                    intent.setClass(acerpad.this, phoneActivity.class);
-                    startActivity(intent);
-                }
-
-            });
-            btn_home.setOnClickListener(new View.OnClickListener() { //點擊後執行跳頁的指令
-                @Override
-                public void onClick(View view) {
-                    Intent intent = new Intent();
-                    intent.setClass(acerpad.this, MainActivity.class);
+                    intent.setClass(comput.this, phoneActivity.class);
                     startActivity(intent);
                 }
 
             });
         });
+
+
     }
 }
-
+    

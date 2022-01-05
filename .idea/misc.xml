@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/drawable-v24/black_back_arrow.xml" value="0.25462962962962965" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/drawable/border.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/layout/activity_aaplelaptop.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/layout/activity_acer_a51545_r2_b5.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/layout/activity_main.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/layout/activity_phone.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/layout/activity_phone_detail.xml" value="0.3" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/layout/phone_viewed_items.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/layout/product_card.xml" value="0.1743659420289855" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/border.xml" value="0.26979166666666665" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_aaplelaptop.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_acer.xml" value="0.25364583333333335" />
@@ -37,6 +46,12 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_zenpadz10.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/border.xml" value="0.2390625" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final-project-Ho/app/src/main/res/layout/activity_asus.xml" value="0.1296875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final-project-Ho/app/src/main/res/layout/activity_comput.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final-project-Ho/app/src/main/res/layout/activity_homepage.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final-project-Ho/app/src/main/res/layout/activity_main.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final-project-Ho/app/src/main/res/layout/activity_phone.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final-project-Ho/app/src/main/res/layout/activity_phone_detail.xml" value="0.17481884057971014" />
       </map>
     </option>
   </component>
