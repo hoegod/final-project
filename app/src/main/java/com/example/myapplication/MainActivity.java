@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         Button btn_phone = findViewById(R.id.btn_phone);
         Button btn_home = findViewById(R.id.btn_home);
         Button btn_others = findViewById(R.id.btn_others);
-
         Button btn_1 = findViewById(R.id.btn_1);
         Button btn_2 = findViewById(R.id.btn_2);
         Button btn_3 = findViewById(R.id.btn_3);
@@ -47,8 +46,6 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView imageAnim = (ImageView) findViewById(R.id.img);
         imageAnim.setBackgroundDrawable(animation);
-
-
 
         // start the animation!
         animation.start();
@@ -92,7 +89,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
-
             btn_phone.setOnClickListener(new View.OnClickListener() { //點擊後執行跳頁的指令
                 @Override
                 public void onClick(View view) {
@@ -102,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
             });
+
             btn_home.setOnClickListener(new View.OnClickListener() { //點擊後執行跳頁的指令
                 @Override
                 public void onClick(View view) {
