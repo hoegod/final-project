@@ -3,9 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/drawable-v24/black_back_arrow.xml" value="0.25462962962962965" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/drawable/border.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/layout/activity_aaplelaptop.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/layout/activity_acer_a51545_r2_b5.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/layout/activity_main.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/layout/activity_phone.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/layout/activity_phone_detail.xml" value="0.3" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/layout/phone_viewed_items.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Ocean/Desktop/updated final-pj/final-project/app/src/main/res/layout/product_card.xml" value="0.1743659420289855" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/border.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_aaplelaptop.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_acer.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_acer_a3_a301375.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_acer_a51545_r2_b5.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_acer_aspire5_a51543_r19_l.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_acer_iconia_tab_a500.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_acer_n50610.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_acer_tc1650.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_acercomputer.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_acerlaptop.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_acerpad.xml" value="0.2477355072463768" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_apple.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_applecomputer.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_applepad.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_asus.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_asuscomputer.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_asuslaptop.xml" value="0.264" />
@@ -13,42 +34,37 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_asuspad.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_asusx515.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_asusx517.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_imac24.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_imac27.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_ipad.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_ipadpro.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_macbookair.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_macbookpro.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_s500sa.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_s700ta.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_zenpadz10.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/border.xml" value="0.2390625" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication/app/src/main/res/layout/content_main.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories11.xml" value="0.19746376811594202" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories1_1.xml" value="0.2" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories1_2.xml" value="0.22" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories1_3.xml" value="0.27239583333333334" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories2_1.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories2_2.xml" value="0.27239583333333334" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories2_3.xml" value="0.2578125" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories3_1.xml" value="0.2578125" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories3_2.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories3_3.xml" value="0.21" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories4_1.xml" value="0.21" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories4_2.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories4_3.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories5_1.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories5_2.xml" value="0.1421875" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_accessories5_3.xml" value="0.1421875" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_acer.xml" value="0.19746376811594202" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_acercomputer.xml" value="0.19746376811594202" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_apple.xml" value="0.19746376811594202" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_asus.xml" value="0.19746376811594202" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_asuscomputer.xml" value="0.19746376811594202" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_asuslaptop.xml" value="0.19746376811594202" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_asusme103_k.xml" value="0.1" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_asuspad.xml" value="0.19746376811594202" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_asusx515.xml" value="0.19746376811594202" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_asusx517.xml" value="0.19746376811594202" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_main.xml" value="0.16847826086956522" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_s500sa.xml" value="0.19746376811594202" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_s700ta.xml" value="0.19746376811594202" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/finalprogram/final-project/app/src/main/res/layout/activity_zenpadz10.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SoftwareProgram/final-project/app/src/main/res/layout/activity_accessories1_1.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SoftwareProgram/final-project/app/src/main/res/layout/activity_accessories1_2.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SoftwareProgram/final-project/app/src/main/res/layout/activity_accessories2_1.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SoftwareProgram/final-project/app/src/main/res/layout/activity_accessories3_1.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SoftwareProgram/final-project/app/src/main/res/layout/activity_accessories4_1.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SoftwareProgram/final-project/app/src/main/res/layout/activity_accessories5_1.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SoftwareProgram/final-project/app/src/main/res/layout/activity_accessories5_2.xml" value="0.1421875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SoftwareProgram/final-project/app/src/main/res/layout/activity_accessories5_3.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SoftwareProgram/final-project/app/src/main/res/layout/activity_acerpad.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SoftwareProgram/final-project/app/src/main/res/layout/activity_apple.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SoftwareProgram/final-project/app/src/main/res/layout/activity_applecomputer.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SoftwareProgram/final-project/app/src/main/res/layout/activity_applepad.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SoftwareProgram/final-project/app/src/main/res/layout/activity_asus.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final-project-Ho/app/src/main/res/layout/activity_asus.xml" value="0.1296875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final-project-Ho/app/src/main/res/layout/activity_comput.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final-project-Ho/app/src/main/res/layout/activity_homepage.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final-project-Ho/app/src/main/res/layout/activity_main.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final-project-Ho/app/src/main/res/layout/activity_phone.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/final-project-Ho/app/src/main/res/layout/activity_phone_detail.xml" value="0.17481884057971014" />
       </map>
     </option>
   </component>

@@ -5,48 +5,66 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/white">
+    tools:context=".MainActivity">
 
     <!--主頁面佈局-->
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="52dp"
+            android:text="推薦桌電"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="56dp"
+            android:text="推薦手機"
+            app:layout_constraintStart_toEndOf="@+id/btn_2"
+            app:layout_constraintTop_toBottomOf="@+id/img" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="26dp"
+            android:text="推薦筆電"
+            app:layout_constraintEnd_toStartOf="@+id/btn_3"
+            app:layout_constraintStart_toEndOf="@+id/btn_1"
+            app:layout_constraintTop_toBottomOf="@+id/img" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="398dp"
+            android:layout_height="275dp"
+            android:layout_marginTop="81dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_open" />
 
         <ImageButton
             android:id="@+id/btn_open"
             android:layout_width="63dp"
             android:layout_height="63dp"
-            android:background="@drawable/pj4" />
+            android:background="@drawable/pj4"
+             />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <ImageButton
-            android:id="@+id/btn_asus"
-            android:layout_width="match_parent"
-            android:layout_height="175dp"
-            android:adjustViewBounds="true"
-            android:scaleType="fitCenter"
-            app:srcCompat="@drawable/pj1"
-            tools:layout_editor_absoluteX="56dp"
-            tools:layout_editor_absoluteY="68dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <ImageButton
-            android:id="@+id/btn_acer"
-            android:layout_width="match_parent"
-            android:layout_height="175dp"
-            android:adjustViewBounds="true"
-            android:scaleType="fitCenter"
-            app:srcCompat="@drawable/pj2"
-            tools:layout_editor_absoluteX="49dp"
-            tools:layout_editor_absoluteY="263dp" />
-
-        <ImageButton
-            android:id="@+id/btn_laptop"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            app:srcCompat="@drawable/pj3"
-            tools:layout_editor_absoluteX="70dp"
-            tools:layout_editor_absoluteY="451dp" />
 
     </LinearLayout>
 
@@ -71,14 +89,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="配件" />
+            android:text="零件" />
 
         <Button
             android:id="@+id/btn_home"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="首頁" />
+            android:text="電腦" />
     </LinearLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>

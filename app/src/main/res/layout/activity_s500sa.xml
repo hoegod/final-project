@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".s500sa"
-    android:background="@color/white">
+    tools:context=".s500sa">
 
 
     <WebView
@@ -17,29 +16,33 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+
         android:id="@+id/textView47"
-        android:layout_width="wrap_content"
+
+        android:layout_width="40dp"
+
         android:layout_height="22dp"
         android:layout_marginStart="106dp"
         android:layout_marginTop="102dp"
         android:background="@drawable/border"
         android:text="CPU  "
-        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView48"
         app:layout_constraintEnd_toStartOf="@+id/textView46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/youtubeView" />
 
     <TextView
+
         android:id="@+id/textView46"
+
         android:layout_width="212dp"
+
         android:layout_height="22dp"
         android:layout_marginTop="102dp"
         android:layout_marginEnd="59dp"
         android:background="@drawable/border"
         android:text="Core™ i5
 第 10 代 Intel® Core CPU"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView49"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView47"
@@ -47,25 +50,27 @@
 
     <TextView
         android:id="@+id/textView48"
-        android:layout_width="wrap_content"
+        android:layout_width="40dp"
+
         android:layout_height="22dp"
         android:layout_marginStart="106dp"
         android:background="@drawable/border"
         android:text="RAM  "
-        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView50"
         app:layout_constraintEnd_toStartOf="@+id/textView49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView47" />
 
     <TextView
+
         android:id="@+id/textView49"
+
         android:layout_width="212dp"
+
         android:layout_height="22dp"
         android:layout_marginEnd="59dp"
         android:background="@drawable/border"
         android:text="DDR4"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView51"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -74,26 +79,28 @@
 
     <TextView
         android:id="@+id/textView50"
-        android:layout_width="wrap_content"
+        android:layout_width="40dp"
+
         android:layout_height="22dp"
         android:layout_marginStart="106dp"
         android:background="@drawable/border"
         android:text="GPU  "
-        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView52"
         app:layout_constraintEnd_toStartOf="@+id/textView51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView48" />
 
     <TextView
+
         android:id="@+id/textView51"
+
         android:layout_width="212dp"
+
         android:layout_height="22dp"
         android:layout_marginEnd="59dp"
         android:background="@drawable/border"
         android:text="NVIDIA® GeForce®GT 1030
 "
-        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView54"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView50"
@@ -101,36 +108,38 @@
 
     <TextView
         android:id="@+id/textView52"
-        android:layout_width="wrap_content"
+        android:layout_width="40dp"
+
         android:layout_height="22dp"
         android:layout_marginStart="106dp"
         android:background="@drawable/border"
         android:text="SSD  "
-        android:textColor="@color/black"
         app:layout_constraintEnd_toStartOf="@+id/textView54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView50" />
 
     <TextView
         android:id="@+id/textView55"
-        android:layout_width="wrap_content"
+        android:layout_width="40dp"
+
         android:layout_height="22dp"
         android:layout_marginStart="106dp"
         android:background="@drawable/border"
         android:text="HDD  "
-        android:textColor="@color/black"
         app:layout_constraintEnd_toStartOf="@+id/textView53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView52" />
 
     <TextView
+
         android:id="@+id/textView53"
+
         android:layout_width="212dp"
+
         android:layout_height="22dp"
         android:layout_marginEnd="59dp"
         android:background="@drawable/border"
         android:text="3TB"
-        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView55"
         app:layout_constraintTop_toBottomOf="@+id/textView54" />
@@ -144,7 +153,6 @@
         android:layout_marginEnd="366dp"
         android:layout_marginBottom="22dp"
         android:text="簡介:"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -159,21 +167,22 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="61dp"
         android:text="ASUS S500SA 搭載最新一代處理器、專業的獨立顯示卡及快速的 DDR4 記憶體，使用最少的空間發揮最大效能，讓您在自家的任何地點輕鬆完成日常作業。其雙儲存設計可讓您快速存取檔案、照片及多媒體收藏庫，同時先進的散熱系統與免工具拆卸機殼也能大幅提升您的生產力。S500SA 內外兼具優異的品質，包括全固態電容器設計，以確保長期使用與可靠的運算能力。"
-        android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
+
         android:id="@+id/textView54"
+
         android:layout_width="213dp"
+
         android:layout_height="22dp"
         android:layout_marginEnd="59dp"
         android:background="@drawable/border"
         android:text="2TB
 "
-        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView53"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView52"

@@ -5,8 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".asuscomputer"
-    android:background="@color/white">
+    tools:context=".asuscomputer">
 
     <!--主頁面佈局-->
     <LinearLayout
@@ -32,8 +31,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ASUS華碩 S500SA 雙核桌上型電腦"
-            android:textColor="@color/black"/>
+            android:text="ASUS華碩 S500SA 雙核桌上型電腦" />
 
         <ImageButton
             android:id="@+id/btn_laptop"
@@ -47,8 +45,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ASUS s700ta"
-            android:textColor="@color/black"/>
+            android:text="ASUS s700ta" />
 
     </LinearLayout>
 
