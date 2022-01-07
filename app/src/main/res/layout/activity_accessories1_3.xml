@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accessories1_3"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textheadphone1_1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="CORSAIR VIRTUOSO RGB 無線耳機 台幣$6290"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textheadphone1_2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="高動態響應範圍：20Hz ~ 40,000Hz，
+50mm大驅動單體，優質記憶棉耳墊，輕便耐用的高強度鋁製結構，
+三種連接方式：無線接收 / USB / 3.5mm音源線，廣播級可拆卸式麥克風"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textheadphone1_1" />
+
+    <TextView
+        android:id="@+id/textheadphone1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="簡介:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textheadphone1_2" />
+
+    <TextView
+        android:id="@+id/textheadphone1_4"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="借助VIRTUOSO RGB Wireless，不論是輕微的腳步聲，還是深沉的低音，
+都能聲聲入耳。一對經過精細匹配調諧的50mm高保真釹制驅動器，
+具有20Hz-40,000Hz的響頻範圍，是大多數遊戲耳機的兩倍。
+借助VIRTUOSO RGB Wireless，不論是輕微的腳步聲，還是深沉的低音，
+都能聲聲入耳。一對經過精細匹配調諧的50mm高保真釹制驅動器，
+具有20Hz-40,000Hz的響頻範圍，是大多數遊戲耳機的兩倍。採用高強度鋁打造而成，
+說明VIRTUOSO RGB Wireless將輕便性、耐用性和舒適性融於一體。CORSAIR iCUE軟件可體驗預先調諧的音頻配置文件、定制的均衡器設置、沉浸式7.1聲道環繞聲效和側音控制。
+利用各種各樣的顏色選項和動態效果定制您的RGB燈光，與兼容的美商海盜船外設、
+散熱器和風扇等同步RGB燈光，搭配各種不同的風格。 "
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textheadphone1_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

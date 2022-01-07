@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accessories2_2"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textkeyboard1_1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="irocks K71M RGB背光 機械式鍵盤-Gateron茶軸 台幣$2390"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textkeyboard1_2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="機械鍵軸提供極速反應與按鍵回饋感，可切換模式與自定功能的智慧滾輪，
+USB-C鍵線分離與可調整腳架，環狀燈帶與多彩RGB背光，支援動態特效與自訂背光功能，
+內建快捷鍵，包括多媒體功能、郵件、全鍵鎖定及電腦鎖定"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textkeyboard1_1" />
+
+    <TextView
+        android:id="@+id/textkeyboard1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="簡介:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textkeyboard1_2" />
+
+    <TextView
+        android:id="@+id/textkeyboard1_4"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text=" 搭載佳達隆Gateron RGB機械軸體，可承受最高達5,000萬次點擊；NKRO全區防衝突與防鬼鍵，無論是遊戲還是高速輸入皆能流暢地輸出訊號，帶給你舒適的字鍵敲擊感受。
+搭配使用Windows 10內建智慧轉輪，無須任何額外驅動程式，可依不同軟體自訂，音量大小，滾動，縮放或旋轉，調整畫筆，影片剪輯及多媒體播放等功能。
+K71M的滾輪採用鋁合金材質打造，具備霧面表面與防滑側邊雕刻紋路，並使用輕微段落感與可按壓功能的滾輪編碼器。
+與市面上普遍焊在PCB，並埋藏在軸體下的 SMD RGB LED 不同，K71M採用燈珠與鍵帽更接近的RGB LED安裝方式，能讓背光與字符更加清晰、顏色更加突出鮮明，也大大提升最大亮度。
+PBT材質的鍵帽比普通ABS鍵帽來得更加耐打油，大幅強化按鍵表面耐用度。
+採用二色成形技術生產，能讓透光字符經久耐用不磨滅。
+採用USB-C鍵線分離設計，使鍵盤拆裝更加迅速便利。"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textkeyboard1_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

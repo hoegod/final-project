@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accessories2_3"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textkeyboard1_1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="Razer Cynosa Lite 薩諾狼蛛Lite版鍵盤 台幣$1490"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textkeyboard1_2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="柔軟緩衝的電競級按鍵，10鍵齊發不衝突防鬼鍵，1000Hz超快輪詢率，防潑水耐用設計。"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textkeyboard1_1" />
+
+    <TextView
+        android:id="@+id/textkeyboard1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="簡介:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textkeyboard1_2" />
+
+    <TextView
+        android:id="@+id/textkeyboard1_4"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="RAZER CYNOSA CHROMA支援了Razer Chroma的RGB全彩發光效果，並能透過Razer Synapse 應用程式自訂光效。
+如果你以為所有的標準鍵盤用起來都差不多，那你就錯了。Razer Cynosa Lite 保留了所有的標準按鍵，而且還內建更多功能。它現在能夠展現高度遊戲效能，而且採用獨立背光按鍵，
+帶給你更多自訂空間!"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textkeyboard1_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accessories5_2"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textvideocard1_1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="SAMSUNG 原廠雙向閃電快充10000mAh行動電源-EB-P1100 (Type-C) 台幣$488"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textvideocard1_2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="讓您隨時隨地為流動裝置進行充電
+，採用輕薄、符合人體工學的設計。"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textvideocard1_1" />
+
+    <TextView
+        android:id="@+id/textvideocard1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="簡介:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textvideocard1_2" />
+
+    <TextView
+        android:id="@+id/textvideocard1_4"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="行動電源配備SAMSUNG AFC(15W)及支援QC 2.0，電力隨時滿格，透過OCP保護設計，讓您的裝置安全地充電。
+行動電源本身有著OVP保護設計，在閃電快充模式下可在220分鐘內充滿，您可以更快地使用它。
+行動電源可同時為二台裝置進行充電，讓您使用上更有效率及便利。
+行動電源同時可支援其他設備，讓您輕鬆搭配各種裝置。
+10,000mAh的高電力讓您有更高的續航力，無需擔心電力問題。
+符合人體工學的設計，讓您輕易地掌握在手中。"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textvideocard1_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accessories3_2"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textmouse1_1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="ROG STRIX IMPACT II RGB 電競滑鼠 台幣$990"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textmouse1_2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="輕量化、雙手通用設計，樞軸按鍵結構，清晰優異的鍵擊觸感，
+6,200 dpi 光學感測器具備四階段 DPI 的微動開關以供調整靈敏度，
+可更換微動開關插槽設計，提供多種點擊阻力，並可延長滑鼠使用壽命，
+支援 ASUS Aura RGB 燈效，相容於 Aura Sync 生態系統"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textmouse1_1" />
+
+    <TextView
+        android:id="@+id/textmouse1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="簡介:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textmouse1_2" />
+
+    <TextView
+        android:id="@+id/textmouse1_4"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="ROG Strix Impact II 是一款輕量且雙手通用的電競滑鼠，可提供流暢的動作與優異的靈敏度。它具有樞軸按鍵與軟質橡膠連接線，可提供快速且觸感優異的點擊感及順暢的滑動效果。而 6,200 dpi 感測器則可提供精確的定位能力。
+另外，Impact II 配備獨家、可更換微動開關插槽設計以延長使用壽命，
+而四級可調式 DPI 開關可輕鬆調整靈敏度以符合玩家的遊戲方式，
+半透明外蓋則為整體設計添加潮流感。
+打造雙手通用的人體工學設計，並針對高效能操作與舒適握持感進行最佳化，其重量僅 79 公克。6,200 dpi 感測器最高可追蹤 220 ips 並具備 1000 Hz輪詢率，
+提供使用者高精確度、快速反應及準確控制，而且毫無延遲。
+因此我們的工程師為 ROG Strix Impact II 配備了樞軸按鍵。此結構利用彈簧和金屬轉軸以平衡按鍵，並大幅縮小按鍵與開關之間的距離。其結果可提供極短的反應時間與快速的回彈，
+確保每次點擊皆可達到優異的速度、反應及穩定性。"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textmouse1_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
