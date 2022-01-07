@@ -21,9 +21,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button btn_phone = findViewById(R.id.btn_phone);
         Button btn_home = findViewById(R.id.btn_home);
+        Button btn_others = findViewById(R.id.btn_others);
+
         Button btn_1 = findViewById(R.id.btn_1);
         Button btn_2 = findViewById(R.id.btn_2);
         Button btn_3 = findViewById(R.id.btn_3);
+
 
 
 
@@ -44,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView imageAnim = (ImageView) findViewById(R.id.img);
         imageAnim.setBackgroundDrawable(animation);
+
+
 
         // start the animation!
         animation.start();
@@ -77,6 +82,17 @@ public class MainActivity extends AppCompatActivity {
         btn_open.setOnClickListener(v -> {
             //開啟滑動選單 左側出現
             drawerLayout.openDrawer(GravityCompat.START);
+
+            btn_others.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity.this, Accessories1_1.class);
+                    startActivity(intent);
+                }
+            });
+
+
             btn_phone.setOnClickListener(new View.OnClickListener() { //點擊後執行跳頁的指令
                 @Override
                 public void onClick(View view) {
